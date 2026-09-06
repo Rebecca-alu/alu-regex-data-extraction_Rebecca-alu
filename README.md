@@ -44,11 +44,11 @@ from anywhere as long as the folder structure stays intact.
 ```
 alu-regex-data-extraction_{GithubUsername}/
 ├── input/
-│   └── raw-text.txt        # realistic, messy sample input
+│   └── raw-text.txt        
 ├── src/
-│   └── main.py              # extraction + validation logic
+│   └── main.py              
 ├── output/
-│   └── sample-output.json   # generated each run
+│   └── sample-output.json   
 └── README.md
 ```
 
