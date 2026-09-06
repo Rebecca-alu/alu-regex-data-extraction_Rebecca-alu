@@ -1,32 +1,5 @@
 #!/usr/bin/env python3
-"""
-main.py
---------
-Data Extraction & Secure Validation Assignment
 
-Reads raw, messy, production-style text (e.g. a support-ticket export) and
-extracts structured data using regular expressions:
-
-    1. Email addresses (general)            -> plus ALU-specific sub-rules
-    2. Credit card numbers                   -> validated with the Luhn algorithm
-    3. URLs
-    4. Phone numbers (local + international)
-    5. Times (12-hour and 24-hour)
-    6. Hashtags
-    7. Currency amounts (multiple symbols)
-    8. HTML tags                             -> extracted ONLY to flag/strip them,
-                                                 never trusted or rendered
-
-The program treats every line of input as untrusted. Before extraction, each
-line is screened for injection-style payloads (script tags, SQL keywords,
-null-byte sequences, javascript: pseudo-protocols, credential-stuffed URLs,
-etc.). Flagged lines are quarantined into a separate security report and are
-NOT used for data extraction, so a hostile payload can never masquerade as a
-"valid" email/URL/card just because it happens to contain matching characters.
-
-Sensitive fields (credit card numbers) are masked before they ever reach the
-JSON output or the console log — we only ever display the last 4 digits.
-"""
 
 import json
 import re
